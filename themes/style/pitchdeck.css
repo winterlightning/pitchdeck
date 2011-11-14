@@ -185,3 +185,7 @@ h2 span.topichead {
 .team img {
 	border-radius: 5px;
 }
+
+.csstransitions.csstransforms .deck-container:not(.deck-menu) > .slide img.deck-previous {
+display: block;
+}
