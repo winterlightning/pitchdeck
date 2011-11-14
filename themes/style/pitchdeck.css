@@ -9,12 +9,14 @@
 }
 .deck-container h1, .deck-container h2, .deck-container h3, .deck-container h4, .deck-container h5 {
 	font-weight: normal;
-	border-top: 8px solid #fff;
-	border-bottom: 1px solid #fff;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 .deck-container h1 {
 	min-height: 215px;
+	color: white;
+	opacity: 0.8;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px black;
 }
 .deck-container h1 span {
 	font-size: .7em;
@@ -22,13 +24,12 @@
 }
 .deck-container h2 {
 	font-size: 2.5em;
-	min-height: 120px;
 	margin-top: 1em;
+	text-align: center;
+	border-bottom: 0px;
 }
 .deck-container h3, .deck-container h4 {
-	margin-top: 1.5em;
 	margin-bottom: .5em;
-	padding-bottom: .5em;
 }
 .deck-container h3 {
 	font-size: 1.7em;
@@ -158,4 +159,29 @@
 	padding-right: 20px !important;
 	margin-top: 50px !important;
 	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) !important;
+}
+h2 span.topichead {
+	background-color: black;
+	padding: 5px 10px;
+	border-radius: 7px;
+	opacity: 0.5;
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) !important;
+}
+
+.team {
+	width: 40%;
+	background-color: white;
+	padding: 2% !important; 
+	margin: 2.5% !important;
+	border-radius: 7px;
+	color: #444;
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) !important;
+}
+
+.team h3 {
+	text-align: center;
+}
+
+.team img {
+	border-radius: 5px;
 }

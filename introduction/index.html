@@ -8,7 +8,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Getting Started with deck.js</title>
+		<title>TaskStrike</title>
 		<meta name="description" content="A jQuery library for modern HTML presentations">
 		<meta name="author" content="Caleb Troughton">
 		<meta name="viewport" content="width=1024, user-scalable=no">
@@ -27,24 +27,6 @@
 		<script src="../modernizr.custom.js"></script>
 	</head>
 	<body class="deck-container">
-		<div class="theme-menu">
-			<h2>Themes</h2>
-			<label for="style-themes">Style:</label>
-			<select id="style-themes">
-				<option value="../themes/style/web-2.0.css">Web 2.0</option>
-				<option value="../themes/style/swiss.css">Swiss</option>
-				<option value="../themes/style/neon.css">Neon</option>
-				<option selected value="../themes/style/pitchdeck.css">Pitchdeck</option>
-				<option value="">None</option>
-			</select>
-			<label for="transition-themes">Transition:</label>
-			<select id="transition-themes">
-				<option selected value="../themes/transition/horizontal-slide.css">Horizontal Slide</option>
-				<option value="../themes/transition/vertical-slide.css">Vertical Slide</option>
-				<option value="../themes/transition/fade.css">Fade</option>
-				<option value="">None</option>
-			</select>
-		</div>
 		
 		<div id="content"></div>
 		
@@ -52,50 +34,31 @@
 			<div><img class="logo" src="http://taskstrike.com/img/logo/logoMain_02.png" /></div>
 			<div class="screenshot"><img src="http://taskstrike.com/img/home/appshot.png" /></div>
 		</section>
-		<section class="slide" id="how-to-overview">
-			<h2>How to Make a Deck</h2>
-			<ol>
-				<li>
-					<h3>Write Slides</h3>
-					<p>
-						Slide content is simple&nbsp;HTML.
-					</p>
-				</li>
-				<li>
-					<h3>Choose Themes</h3>
-					<p>
-						One for slide styles and one for deck&nbsp;transitions.
-					</p>
-				</li>
-				<li>
-					<h3>Include Extensions</h3>
-					<p>
-						Add extra functionality to your deck, or leave it stripped&nbsp;down.
-					</p>
-				</li>
-			</ol>
+		<section class="slide" id="idea">
+			<h2><span class="topichead">What are we building?</span></h2>
+			<h1 style="top: 80%">Cross device/platform project management software that syncs data through user owned clouds; built on HTML5 technology</h1>
+			<img src="../bottom-graph.png" />
 		</section>
-		<section class="slide" id="markup">
-			<h2>The Markup</h2>
-			<p>
-				Slides are just HTML elements with a class of <code>
-					slide</code>
-				.
-			</p>
-			<pre><code>&lt;section class=&quot;slide&quot;&gt;
-   &lt;h2&gt;How to Make a Deck&lt;/h2&gt;
-   &lt;ol&gt;
-      &lt;li&gt;
-         &lt;h3&gt;Write Slides&lt;/h3&gt;
-         &lt;p&gt;Slide content is simple HTML.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-         &lt;h3&gt;Choose Themes&lt;/h3&gt;
-         &lt;p&gt;One for slide styles and one for deck transitions.&lt;/p&gt;
-      &lt;/li&gt;
-      &hellip;
-   &lt;/ol&gt;
-&lt;/section&gt;</code></pre>
+		<section class="slide" id="team">
+			<h2><span class="topichead">The Team</span></h2>
+			<div class="team" style="float: left;">
+				<h3>Ray Wang</h3>
+				<img src="../ray-headshot.png" />
+				<p>Cornell B.S. Comp Sci 2007<br />
+					Cornell Master of Engineering Comp. Sci. 2008
+					</p>
+				<p>Prior to working on startups, worked 2 1/2 years out of college for Goldman as a programmer. Worked on processing large dataset for their mortgage unit.</p>				
+				<p><a href="http://www.linkedin.com/pub/ray-wang/4/195/645">LinkedIn Account</a></p>
+			</div>
+			<div class="team" style="float: right">
+				<h3>Eric Cosselman</h3>
+				<img src="../eric-headshot.png" />
+				<p>Cornell B.S. Biology 2007<br />
+					U. of Chicago Master Comp. Sci. 2009
+					</p>
+				<p>Worked as the lead developer of a small team responsible for the development of a new mobile device platform for the US military.</p>
+				<p><a href="http://www.linkedin.com/pub/ray-wang/4/195/645">LinkedIn Account</a></p>
+			</div>
 		</section>
 		<section class="slide" id="themes">
 			<h2>Style Themes</h2>
