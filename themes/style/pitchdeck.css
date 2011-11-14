@@ -189,3 +189,11 @@ h2 span.topichead {
 .csstransitions.csstransforms .deck-container:not(.deck-menu) > .slide img.deck-previous {
 display: block;
 }
+
+.pricecomp {
+	background-color: white;
+	padding: 10px 5px !important;
+	border-radius: 7px !important;
+	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) !important;
+	color: #555;
+}
