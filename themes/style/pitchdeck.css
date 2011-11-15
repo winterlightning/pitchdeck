@@ -196,4 +196,17 @@ display: block;
 	border-radius: 7px !important;
 	-webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3) !important;
 	color: #555;
+	margin: 10px !important;
+}
+
+.toplabel {
+	background-color: black !important;
+	padding: 5px 10px !important;
+	opacity: 0.7 !important;
+	border-radius: 7px !important;
+	width: 500px !important;
+	margin: 0px auto !important;
+	z-index: 100 !important;
+	top: -250px !important;
+	position: relative !important;
 }
