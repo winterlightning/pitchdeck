@@ -2,7 +2,7 @@
 	color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-weight: 500;
-	background: url("../../bamboo2_tile.jpg");
+	background: url("../../bamboo1_tile.jpg");
 }
 .deck-container .slide {
 	background: none;
@@ -27,6 +27,9 @@
 	margin-top: 1em;
 	text-align: center;
 	border-bottom: 0px;
+	opacity: 0.8;
+	text-shadow: 1px 1px 1px black;
+	color: white;
 }
 .deck-container h3, .deck-container h4 {
 	margin-bottom: .5em;
